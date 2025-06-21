@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Example Page</title>
+
+<style>
+
+body{
+border-style:outset;
+}
+
+#button{
+background-color:pink;
+border:5px black solid;
+color:blue;
+font-family:Times New Roman;
+}
+
+</style>
+
+
+</head>
+<body>
+<form name="registration" action="" method="post" autocomplete="on" target="_blank" enctype="multipart/form-data" >
+
+<fieldset>
+<legend>Registration Form</legend>
+
+<label>Name :</label><input type="text" name="uname" placeholder="Enter Name" minlength="3" required="required"><br><br>
+
+Mail Id:<input type="email" name="mail" placeholder="Enter E-mail" required="required"><br><br>
+	
+	<input type="file" name="upload"><br><br>
+	
+	
+    <legend>Comment :</legend>
+	<textarea rows="4" cols="20">  </textarea><br><br>
+	
+    <label for="male">Male:</label><input type="radio" name="gender">
+	<label for="female">Female:</label><input type="radio" name="gender">
+	<label for="other">Other:</label><input type="radio" name="gender"><br><br>
+	
+	
+	
+	
+	<label for="student">Student: </label><input type="checkbox" name="designation">
+	<label for="teacher">Teacher:</label><input type="checkbox" name="designation">
+	<label for="non-teaching">Non-Teaching:</label><input type="checkbox" name="designation"><br><br>
+	
+	
+	
+	<label>Nationality: </label><select><option>Indian<option>Others</select><br><br>
+	
+	<label for="dob">Date Of Birth 	: </label><input type="date"><br><br>
+	
+	
+	
+	<input type="submit" alt="Submit" value="Submit" name="Submit" id="button"><br><br>
+	
+
+</fieldset>
+
+</form>
+
+</body>
+</html>
